@@ -1,0 +1,51 @@
+.body,.screen{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin:0 auto;
+  padding:10px;
+}
+
+input{
+  flex:1 1 auto;
+  align-self: center;
+  width:400px;
+  height:100px;
+  box-sizing: border-box;
+  padding:20px;
+  text-align: right;
+  font-size: 24px;
+  border: 1px black solid;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  height:100px;
+  box-sizing: border-box;
+}
+
+.key{
+  height: 100px;
+  width: 100px;
+  border: 1px black solid;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:20px;
+  background-color: white;
+}
+
+.ac{
+  width: 300px;
+}
+
+.zero{
+  width:200px;
+}
+
+.number{
+  background-color: rgb(199, 199, 199);
+}
